@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="An example talk using Wowchemy&#39;s Markdown slides feature.">
+  <meta name="description" content="This paper presents the design and implementation of Android-based cascade PID controller structures to control the altitude and attitude of a quadcopter, and the sensor fusion algorithms implemented to estimate its flight dynamics. The main goal of this research is to stabilize the attitude of an unmanned aerial vehicle (UAV), such as a quadcopter, and control its altitude using exclusively the sensors and processor of a smartphone on-board. As the sensors embedded in the smartphones are not accurate enough to measure the altitude of the quadcopter, a linear Kalman filter for relative altitude estimation was designed and implemented. Here, it is described precisely the hardware that was used to build the test platform, the non-linear an linearized quadcopter model, the software structure to execute the controllers in the smartphone, the sensor fusion algorithms implemented to obtain reliable data from the smartphone sensors, and the cascade PID controllers design. Finally, the success of the proposed system is evidenced in the results of a set of experimental tests. In these tests, the quadcopter attitude was regulated after some disturbances were applied to the system and its altitude was controlled after the reference was changed.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alejandroastudillo.github.io/talk/example-talk/">
+  <link rel="alternate" hreflang="en-us" href="https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/">
 
   
 
@@ -265,7 +265,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://alejandroastudillo.github.io/talk/example-talk/">
+  <link rel="canonical" href="https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/">
 
   
   
@@ -275,28 +275,32 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Alejandro Astudillo">
-  <meta property="og:url" content="https://alejandroastudillo.github.io/talk/example-talk/">
-  <meta property="og:title" content="Example Talk | Alejandro Astudillo">
-  <meta property="og:description" content="An example talk using Wowchemy&#39;s Markdown slides feature."><meta property="og:image" content="https://alejandroastudillo.github.io/talk/example-talk/featured.jpg">
-  <meta property="twitter:image" content="https://alejandroastudillo.github.io/talk/example-talk/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/">
+  <meta property="og:title" content="Altitude and attitude cascade controller for a smartphone-based quadcopter | Alejandro Astudillo">
+  <meta property="og:description" content="This paper presents the design and implementation of Android-based cascade PID controller structures to control the altitude and attitude of a quadcopter, and the sensor fusion algorithms implemented to estimate its flight dynamics. The main goal of this research is to stabilize the attitude of an unmanned aerial vehicle (UAV), such as a quadcopter, and control its altitude using exclusively the sensors and processor of a smartphone on-board. As the sensors embedded in the smartphones are not accurate enough to measure the altitude of the quadcopter, a linear Kalman filter for relative altitude estimation was designed and implemented. Here, it is described precisely the hardware that was used to build the test platform, the non-linear an linearized quadcopter model, the software structure to execute the controllers in the smartphone, the sensor fusion algorithms implemented to obtain reliable data from the smartphone sensors, and the cascade PID controllers design. Finally, the success of the proposed system is evidenced in the results of a set of experimental tests. In these tests, the quadcopter attitude was regulated after some disturbances were applied to the system and its altitude was controlled after the reference was changed."><meta property="og:image" content="https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2017-07-27T21:09:19&#43;01:00">
     
-    <meta property="article:modified_time" content="2030-06-01T13:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2017-06-15T21:09:19&#43;01:00">
   
 
   
 
 
-
-  
     
+
+
+
+
+
 
 
 
@@ -304,59 +308,48 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Event",
+  "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alejandroastudillo.github.io/talk/example-talk/"
+    "@id": "https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/"
   },
-  "name": "Example Talk",
+  "headline": "Altitude and attitude cascade controller for a smartphone-based quadcopter",
   
-  "location": {
-    "@type": "Place",
-    "name": "Wowchemy HQ",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "450 Serra Mall",
-      "addressLocality": "Stanford",
-      "postalCode": "94305",
-      "addressRegion": "CA",
-      "addressCountry": "United States"
-    }
-    
-  },
+  "datePublished": "2017-07-27T21:09:19+01:00",
+  "dateModified": "2017-06-15T21:09:19+01:00",
   
-  
-  "image": [
-    "https://alejandroastudillo.github.io/talk/example-talk/featured.jpg"
-  ],
-  
-  "startDate": "2030-06-01T13:00:00Z",
-  
-  "endDate": "2030-06-01T15:00:00Z",
-  
-  
-  "performer": {
+  "author": {
     "@type": "Person",
     "name": "Alejandro Astudillo"
   },
   
-  "description": "An example talk using Wowchemy's Markdown slides feature."
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alejandro Astudillo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "This paper presents the design and implementation of Android-based cascade PID controller structures to control the altitude and attitude of a quadcopter, and the sensor fusion algorithms implemented to estimate its flight dynamics. The main goal of this research is to stabilize the attitude of an unmanned aerial vehicle (UAV), such as a quadcopter, and control its altitude using exclusively the sensors and processor of a smartphone on-board. As the sensors embedded in the smartphones are not accurate enough to measure the altitude of the quadcopter, a linear Kalman filter for relative altitude estimation was designed and implemented. Here, it is described precisely the hardware that was used to build the test platform, the non-linear an linearized quadcopter model, the software structure to execute the controllers in the smartphone, the sensor fusion algorithms implemented to obtain reliable data from the smartphone sensors, and the cascade PID controllers design. Finally, the success of the proposed system is evidenced in the results of a set of experimental tests. In these tests, the quadcopter attitude was regulated after some disturbances were applied to the system and its altitude was controlled after the reference was changed."
 }
 </script>
 
   
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Example Talk | Alejandro Astudillo</title>
+
+
+  <title>Altitude and attitude cascade controller for a smartphone-based quadcopter | Alejandro Astudillo</title>
 
 </head>
 
@@ -580,7 +573,16 @@
   </div>
 
   <div class="page-body">
-    <div class="pub">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
 
   
 
@@ -595,33 +597,46 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Altitude and attitude cascade controller for a smartphone-based quadcopter</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Example Talk</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
 
   
   
+  
+  
+  <div>
+    
 
+  <span >
+      Alejandro Astudillo</span>, <span >
+      Pedro Muñoz</span>, <span >
+      Fredy Álvarez</span>, <span >
+      Esteban Rosero</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2017
+  </span>
   
 
   
@@ -639,17 +654,19 @@
 
 </div>
 
+    
+
+
+
+
+
+
+
+
+
+
+
   
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -665,62 +682,44 @@
 
 
   
-
-
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/project/example/">
-    Project
-  </a>
-  
-
-
-
-
-  
-  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
-  
-  
     
   
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://ieeexplore.ieee.org/document/7991400" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
+        data-filename="/publication/smartphone-quadrotor-pid/cite.bib">
+  Cite
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/ICUAS.2017.7991400" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
 
 
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 514px;">
-  <div style="position: relative">
-    <img src="/talk/example-talk/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x0_resize_q75_lanczos.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">Image credit: <a href="https://unsplash.com/photos/bzdhc5b3Bxs"><strong>Unsplash</strong></a></span>
-  </div>
+  
 </div>
 
 
@@ -728,33 +727,20 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper presents the design and implementation of Android-based cascade PID controller structures to control the altitude and attitude of a quadcopter, and the sensor fusion algorithms implemented to estimate its flight dynamics. The main goal of this research is to stabilize the attitude of an unmanned aerial vehicle (UAV), such as a quadcopter, and control its altitude using exclusively the sensors and processor of a smartphone on-board. As the sensors embedded in the smartphones are not accurate enough to measure the altitude of the quadcopter, a linear Kalman filter for relative altitude estimation was designed and implemented. Here, it is described precisely the hardware that was used to build the test platform, the non-linear an linearized quadcopter model, the software structure to execute the controllers in the smartphone, the sensor fusion algorithms implemented to obtain reliable data from the smartphone sensors, and the cascade PID controllers design. Finally, the success of the proposed system is evidenced in the results of a set of experimental tests. In these tests, the quadcopter attitude was regulated after some disturbances were applied to the system and its altitude was controlled after the reference was changed.</p>
     
 
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9">
-            Jun 1, 2030 1:00 PM &mdash; 3:00 PM
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
+    
     
     <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="https://example.org" target="_blank" rel="noopener">
-            Wowchemy Conference
+            <a href="/publication/#1">
+              Conference paper
             </a>
           </div>
         </div>
@@ -769,12 +755,8 @@
       <div class="col-md-1"></div>
       <div class="col-md-10">
         <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Wowchemy HQ</div>
-          
-            <div class="col-md-3"></div>
-            <div class="col-12 col-md-9">450 Serra Mall<br>94305 Stanford</div>
-          
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In the 2017 International Conference on Unmanned Aircraft Systems (ICUAS)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -784,21 +766,7 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      <div class="alert alert-note">
-  <div>
-    Click on the <strong>Slides</strong> button above to view the built-in slides feature.
-  </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener"><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements</a> such as image galleries, can be added to the body of this page.</p>
-
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -820,7 +788,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://alejandroastudillo.github.io/talk/example-talk/&amp;text=Example%20Talk" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/&amp;text=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -833,7 +801,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://alejandroastudillo.github.io/talk/example-talk/&amp;t=Example%20Talk" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/&amp;t=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -846,7 +814,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Example%20Talk&amp;body=https://alejandroastudillo.github.io/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter&amp;body=https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -859,7 +827,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://alejandroastudillo.github.io/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/&amp;title=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -872,7 +840,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Example%20Talk%20https://alejandroastudillo.github.io/talk/example-talk/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter%20https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -885,7 +853,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://alejandroastudillo.github.io/talk/example-talk/&amp;title=Example%20Talk" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/&amp;title=Altitude%20and%20attitude%20cascade%20controller%20for%20a%20smartphone-based%20quadcopter" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -905,6 +873,7 @@
 
   
   
+    
 
 
 
@@ -1012,6 +981,25 @@
   </div>
 
 
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
+    
+
+
+
+
+  
 
 
 
@@ -1025,6 +1013,18 @@
 
 
 
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/smartphone-mpc/">Fast model predictive control on a smartphone-based flight controller</a></li>
+      
+    </ul>
+  </div>
+  
 
 
 
