@@ -1,195 +1,123 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://alejandroastudillo.github.io/</loc>
+    <loc>/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/event/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication-type/1/</loc>
+    <loc>/publication/open-toolchain/</loc>
     <lastmod>2020-07-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication_types/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication/open-toolchain/</loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-07-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+    <loc>/publication/smartphone-mpc/</loc>
     <lastmod>2019-10-16T20:33:53+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/publication/smartphone-mpc/</loc>
-    <lastmod>2019-10-16T20:33:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2019-10-16T20:33:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/slides/</loc>
+    <loc>/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+    <loc>/publication/silvereye/</loc>
     <lastmod>2017-11-23T21:33:51+01:00</lastmod>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2017-11-23T21:33:51+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication/silvereye/</loc>
-    <lastmod>2017-11-23T21:33:51+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
+    <loc>/publication/smartphone-quadrotor-optimal/</loc>
     <lastmod>2017-10-18T21:26:49+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-optimal/</loc>
-    <lastmod>2017-10-18T21:26:49+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/</loc>
+    <loc>/publication/smartphone-quadrotor-pid/</loc>
     <lastmod>2017-06-15T21:09:19+01:00</lastmod>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2017-06-15T21:09:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2017-06-15T21:09:19+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/tag/deep-learning/</loc>
+    <loc>/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/project/example/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alejandroastudillo.github.io/tags/</loc>
+    <loc>/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/authors/_index/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/categories/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/home/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/authors/admin/_index/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/post/_index/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/publication/_index/</loc>
   </url>
   
   <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/event/_index/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/home/about/</loc>
   </url>
   
   <url>
-    <loc>https://alejandroastudillo.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>/home/skills/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/experience/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/accomplishments/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/posts/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/talks/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/featured/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/home/contact/</loc>
   </url>
   
 </urlset>

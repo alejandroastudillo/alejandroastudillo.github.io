@@ -1,69 +1,65 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Alejandro Astudillo</title>
-    <link>https://alejandroastudillo.github.io/publication/</link>
-      <atom:link href="https://alejandroastudillo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright><lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_2.png</url>
-      <title>Publications</title>
-      <link>https://alejandroastudillo.github.io/publication/</link>
-    </image>
+    <title>Publications on </title>
+    <link>/publication/</link>
+    <description>Recent content in Publications on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Towards an open toolchain for fast nonlinear MPC for serial robots</title>
-      <link>https://alejandroastudillo.github.io/publication/open-toolchain/</link>
+      <link>/publication/open-toolchain/</link>
       <pubDate>Sun, 12 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://alejandroastudillo.github.io/publication/open-toolchain/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+      
+      <guid>/publication/open-toolchain/</guid>
+      <description>&lt;p&gt;&amp;lt;!&amp;ndash;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Fast model predictive control on a smartphone-based flight controller</title>
-      <link>https://alejandroastudillo.github.io/publication/smartphone-mpc/</link>
+      <link>/publication/smartphone-mpc/</link>
       <pubDate>Wed, 16 Oct 2019 20:33:53 +0100</pubDate>
-      <guid>https://alejandroastudillo.github.io/publication/smartphone-mpc/</guid>
+      
+      <guid>/publication/smartphone-mpc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Silvereye, sistema electrónico para el análisis de la marcha humana en el plano sagital a partir de sensores inerciales</title>
-      <link>https://alejandroastudillo.github.io/publication/silvereye/</link>
+      <link>/publication/silvereye/</link>
       <pubDate>Thu, 23 Nov 2017 21:33:51 +0100</pubDate>
-      <guid>https://alejandroastudillo.github.io/publication/silvereye/</guid>
+      
+      <guid>/publication/silvereye/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Optimal and robust controllers design for a smartphone-based quadrotor</title>
-      <link>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-optimal/</link>
+      <link>/publication/smartphone-quadrotor-optimal/</link>
       <pubDate>Wed, 18 Oct 2017 21:26:49 +0100</pubDate>
-      <guid>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-optimal/</guid>
+      
+      <guid>/publication/smartphone-quadrotor-optimal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Altitude and attitude cascade controller for a smartphone-based quadcopter</title>
-      <link>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/</link>
+      <link>/publication/smartphone-quadrotor-pid/</link>
       <pubDate>Thu, 15 Jun 2017 21:09:19 +0100</pubDate>
-      <guid>https://alejandroastudillo.github.io/publication/smartphone-quadrotor-pid/</guid>
+      
+      <guid>/publication/smartphone-quadrotor-pid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publication/_index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/_index/</guid>
       <description></description>
     </item>
     
