@@ -5,12 +5,28 @@
     <link>https://alejandroastudillo.github.io/publication/</link>
       <atom:link href="https://alejandroastudillo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright><lastBuildDate>Sun, 12 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright><lastBuildDate>Thu, 13 Jan 2022 09:11:17 +0200</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://alejandroastudillo.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming</title>
+      <link>https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/</link>
+      <pubDate>Thu, 13 Jan 2022 09:11:17 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mixed Use of Analytical Derivatives and Algorithmic Differentiation for NMPC of Robot Manipulators</title>
+      <link>https://alejandroastudillo.github.io/publication/mixed-use-derivatives/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/mixed-use-derivatives/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards an open toolchain for fast nonlinear MPC for serial robots</title>
