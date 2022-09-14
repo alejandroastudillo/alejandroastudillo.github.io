@@ -5,7 +5,7 @@
     <link>https://alejandroastudillo.github.io/</link>
       <atom:link href="https://alejandroastudillo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Alejandro Astudillo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright><lastBuildDate>Mon, 03 Oct 2022 14:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright><lastBuildDate>Thu, 20 Oct 2022 19:28:31 +0200</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Alejandro Astudillo</title>
@@ -13,10 +13,34 @@
     </image>
     
     <item>
+      <title>Tasho: A Python Toolbox for Rapid Prototyping and Deployment of Optimal Control Problem-Based Complex Robot Motion Skills </title>
+      <link>https://alejandroastudillo.github.io/publication/tasho/</link>
+      <pubDate>Thu, 20 Oct 2022 19:28:31 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/tasho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Raising stars invited talk - MECC 2022</title>
       <link>https://alejandroastudillo.github.io/talk/raising-stars-invited-talk-mecc-2022/</link>
       <pubDate>Mon, 03 Oct 2022 14:00:00 -0400</pubDate>
       <guid>https://alejandroastudillo.github.io/talk/raising-stars-invited-talk-mecc-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Varying-Radius Tunnel-Following NMPC for Robot Manipulators Using Sequential Convex Quadratic Programming</title>
+      <link>https://alejandroastudillo.github.io/publication/varying-radius-tunnel/</link>
+      <pubDate>Mon, 03 Oct 2022 19:21:46 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/varying-radius-tunnel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Web-Based Graphical User Interface for Programming Optimal Control Based Robot Motion Tasks</title>
+      <link>https://alejandroastudillo.github.io/publication/tasho-gui/</link>
+      <pubDate>Wed, 07 Sep 2022 14:25:13 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/tasho-gui/</guid>
       <description></description>
     </item>
     
