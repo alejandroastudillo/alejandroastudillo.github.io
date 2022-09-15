@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Landings | Alejandro Astudillo</title>
+    <link>https://alejandroastudillo.github.io/landing/</link>
+      <atom:link href="https://alejandroastudillo.github.io/landing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Landings</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - 2022 Alejandro Astudillo</copyright>
+    <image>
+      <url>https://alejandroastudillo.github.io/images/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
+      <title>Landings</title>
+      <link>https://alejandroastudillo.github.io/landing/</link>
+    </image>
+    
+    <item>
+      <title>Accomplishments 2</title>
+      <link>https://alejandroastudillo.github.io/landing/accomplishment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alejandroastudillo.github.io/landing/accomplishment/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
