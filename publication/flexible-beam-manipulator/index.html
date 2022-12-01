@@ -78,10 +78,10 @@
   
     
   
-  <meta name="description" content="The tunnel-following nonlinear model predictive control (NMPC) scheme allows to exploit acceptable deviations around a path reference. This is done by using convex-over-nonlinear functions as objective and constraints in the underlying optimal control problem (OCP). The convex-over-nonlinear structure is exploited by algorithms such as the generalized Gauss-Newton (GGN) method or the sequential convex quadratic programming (SCQP) method to reduce the computational complexity of the OCP solution. However, the modeling effort and engineering time required to implement these methods is high. We address the problem of reducing the modeling effort in the implementation of SCQP, focusing on a standard sequential quadratic programming (SQP) implementation where symbolic linearization is applied to the nonlinear part of the convex-over-nonlinear functions in the objective and constraints. The novelty of this letter is twofold. It introduces a novel operator that applies symbolic linearization in a transparent and easy way to solve nonconvex OCPs with the SCQP method, and introduces a meaningful representation of an orientation-tunnel for robotic applications by means of a convex-over-nonlinear constraint, which preserves the convexity exploitation by the SCQP method. The proposed technique is demonstrated in a tunnel-following task for a 7-degrees-of-freedom manipulator." />
+  <meta name="description" content="Fast and safe manipulation of flexible objects with a robot manipulator necessitates measures to cope with vibrations. Existing approaches either increase the task execution time or require complex models and/or additional instrumentation to measure vibrations. This paper develops a model-based method that overcomes these limitations. It relies on a simple pendulum-like model for modeling the beam, open-loop optimal control for suppressing vibrations, and does not require any exteroceptive sensors. We experimentally show that the proposed method drastically reduces residual vibrations -- at least 90% -- and outperforms the commonly used input shaping (IS) for the same execution time. Besides, our method can also execute the task faster than IS with a minor reduction in vibration suppression performance. The proposed method facilitates the development of new solutions to a wide range of tasks that involve dynamic manipulation of flexible objects." />
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/" />
+  <link rel="alternate" hreflang="en-us" href="https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/" />
 
   
   
@@ -283,7 +283,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_32x32_fill_lanczos_center_3.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_180x180_fill_lanczos_center_3.png" />
 
-  <link rel="canonical" href="https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/" />
+  <link rel="canonical" href="https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/" />
 
   
   
@@ -309,18 +309,18 @@
     <meta property="twitter:creator" content="@wowchemy" />
   
   <meta property="og:site_name" content="Alejandro Astudillo" />
-  <meta property="og:url" content="https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/" />
-  <meta property="og:title" content="Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming | Alejandro Astudillo" />
-  <meta property="og:description" content="The tunnel-following nonlinear model predictive control (NMPC) scheme allows to exploit acceptable deviations around a path reference. This is done by using convex-over-nonlinear functions as objective and constraints in the underlying optimal control problem (OCP). The convex-over-nonlinear structure is exploited by algorithms such as the generalized Gauss-Newton (GGN) method or the sequential convex quadratic programming (SCQP) method to reduce the computational complexity of the OCP solution. However, the modeling effort and engineering time required to implement these methods is high. We address the problem of reducing the modeling effort in the implementation of SCQP, focusing on a standard sequential quadratic programming (SQP) implementation where symbolic linearization is applied to the nonlinear part of the convex-over-nonlinear functions in the objective and constraints. The novelty of this letter is twofold. It introduces a novel operator that applies symbolic linearization in a transparent and easy way to solve nonconvex OCPs with the SCQP method, and introduces a meaningful representation of an orientation-tunnel for robotic applications by means of a convex-over-nonlinear constraint, which preserves the convexity exploitation by the SCQP method. The proposed technique is demonstrated in a tunnel-following task for a 7-degrees-of-freedom manipulator." /><meta property="og:image" content="https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png" />
+  <meta property="og:url" content="https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/" />
+  <meta property="og:title" content="An Optimal Open-Loop Strategy for Handling a Flexible Beam with a Robot Manipulator | Alejandro Astudillo" />
+  <meta property="og:description" content="Fast and safe manipulation of flexible objects with a robot manipulator necessitates measures to cope with vibrations. Existing approaches either increase the task execution time or require complex models and/or additional instrumentation to measure vibrations. This paper develops a model-based method that overcomes these limitations. It relies on a simple pendulum-like model for modeling the beam, open-loop optimal control for suppressing vibrations, and does not require any exteroceptive sensors. We experimentally show that the proposed method drastically reduces residual vibrations -- at least 90% -- and outperforms the commonly used input shaping (IS) for the same execution time. Besides, our method can also execute the task faster than IS with a minor reduction in vibration suppression performance. The proposed method facilitates the development of new solutions to a wide range of tasks that involve dynamic manipulation of flexible objects." /><meta property="og:image" content="https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png" />
     <meta property="twitter:image" content="https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
         property="article:published_time"
-        content="2022-09-12T09:11:17&#43;02:00"
+        content="2022-12-01T11:24:39&#43;01:00"
       />
     
-    <meta property="article:modified_time" content="2022-01-13T09:11:17&#43;02:00">
+    <meta property="article:modified_time" content="2022-10-02T11:24:39&#43;01:00">
   
 
   
@@ -342,16 +342,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/"
+    "@id": "https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/"
   },
-  "headline": "Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming",
+  "headline": "An Optimal Open-Loop Strategy for Handling a Flexible Beam with a Robot Manipulator",
   
-  "datePublished": "2022-09-12T09:11:17+02:00",
-  "dateModified": "2022-01-13T09:11:17+02:00",
+  "datePublished": "2022-12-01T11:24:39+01:00",
+  "dateModified": "2022-10-02T11:24:39+01:00",
   
   "author": {
     "@type": "Person",
-    "name": "Alejandro Astudillo"
+    "name": "Shamil Mamedov"
   },
   
   "publisher": {
@@ -362,7 +362,7 @@
       "url": "https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "The tunnel-following nonlinear model predictive control (NMPC) scheme allows to exploit acceptable deviations around a path reference. This is done by using convex-over-nonlinear functions as objective and constraints in the underlying optimal control problem (OCP). The convex-over-nonlinear structure is exploited by algorithms such as the generalized Gauss-Newton (GGN) method or the sequential convex quadratic programming (SCQP) method to reduce the computational complexity of the OCP solution. However, the modeling effort and engineering time required to implement these methods is high. We address the problem of reducing the modeling effort in the implementation of SCQP, focusing on a standard sequential quadratic programming (SQP) implementation where symbolic linearization is applied to the nonlinear part of the convex-over-nonlinear functions in the objective and constraints. The novelty of this letter is twofold. It introduces a novel operator that applies symbolic linearization in a transparent and easy way to solve nonconvex OCPs with the SCQP method, and introduces a meaningful representation of an orientation-tunnel for robotic applications by means of a convex-over-nonlinear constraint, which preserves the convexity exploitation by the SCQP method. The proposed technique is demonstrated in a tunnel-following task for a 7-degrees-of-freedom manipulator."
+  "description": "Fast and safe manipulation of flexible objects with a robot manipulator necessitates measures to cope with vibrations. Existing approaches either increase the task execution time or require complex models and/or additional instrumentation to measure vibrations. This paper develops a model-based method that overcomes these limitations. It relies on a simple pendulum-like model for modeling the beam, open-loop optimal control for suppressing vibrations, and does not require any exteroceptive sensors. We experimentally show that the proposed method drastically reduces residual vibrations -- at least 90% -- and outperforms the commonly used input shaping (IS) for the same execution time. Besides, our method can also execute the task faster than IS with a minor reduction in vibration suppression performance. The proposed method facilitates the development of new solutions to a wide range of tasks that involve dynamic manipulation of flexible objects."
 }
 </script>
 
@@ -373,7 +373,7 @@
   
 
 
-  <title>Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming | Alejandro Astudillo</title>
+  <title>An Optimal Open-Loop Strategy for Handling a Flexible Beam with a Robot Manipulator | Alejandro Astudillo</title>
 
   
   
@@ -393,7 +393,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="39f953e80e15692ea92b0d9f7f046192" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="620a8bda93cf38e58c6f3816bf8424f4" >
 
   
   
@@ -722,7 +722,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming</h1>
+  <h1>An Optimal Open-Loop Strategy for Handling a Flexible Beam with a Robot Manipulator</h1>
 
   
 
@@ -739,12 +739,12 @@
   <div>
     
 
-  <span class="author-highlighted">
+  <span >
+      Shamil Mamedov</span>, <span class="author-highlighted">
       Alejandro Astudillo</span>, <span >
-      Joris Gillis</span>, <span >
-      Moritz Diehl</span>, <span >
+      Daniele Ronzani</span>, <span >
       Wilm Decré</span>, <span >
-      Goele Pipeleers</span>, <span >
+      Jean-Philippe Noël</span>, <span >
       Jan Swevers</span>
   </div>
   
@@ -756,7 +756,7 @@
     
       
     
-    January, 2022
+    October, 2022
   </span>
   
 
@@ -796,16 +796,12 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://lirias.kuleuven.be/retrieve/651310" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2210.00578" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
-<a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/symbolic-linearization-scqp/cite.bib">
-  Cite
-</a>
 
 
 
@@ -817,17 +813,8 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header" href="https://youtu.be/I4Sqhr-PY6I" target="_blank" rel="noopener">
-  Video
-</a>
 
-
-
-<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.1109/LRA.2022.3142396" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://doi.org/10.48550/arXiv.2210.00578" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -845,7 +832,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">The tunnel-following nonlinear model predictive control (NMPC) scheme allows to exploit acceptable deviations around a path reference. This is done by using convex-over-nonlinear functions as objective and constraints in the underlying optimal control problem (OCP). The convex-over-nonlinear structure is exploited by algorithms such as the generalized Gauss-Newton (GGN) method or the sequential convex quadratic programming (SCQP) method to reduce the computational complexity of the OCP solution. However, the modeling effort and engineering time required to implement these methods is high. We address the problem of reducing the modeling effort in the implementation of SCQP, focusing on a standard sequential quadratic programming (SQP) implementation where symbolic linearization is applied to the nonlinear part of the convex-over-nonlinear functions in the objective and constraints. The novelty of this letter is twofold. It introduces a novel operator that applies symbolic linearization in a transparent and easy way to solve nonconvex OCPs with the SCQP method, and introduces a meaningful representation of an orientation-tunnel for robotic applications by means of a convex-over-nonlinear constraint, which preserves the convexity exploitation by the SCQP method. The proposed technique is demonstrated in a tunnel-following task for a 7-degrees-of-freedom manipulator.</p>
+    <p class="pub-abstract">Fast and safe manipulation of flexible objects with a robot manipulator necessitates measures to cope with vibrations. Existing approaches either increase the task execution time or require complex models and/or additional instrumentation to measure vibrations. This paper develops a model-based method that overcomes these limitations. It relies on a simple pendulum-like model for modeling the beam, open-loop optimal control for suppressing vibrations, and does not require any exteroceptive sensors. We experimentally show that the proposed method drastically reduces residual vibrations &ndash; at least 90% &ndash; and outperforms the commonly used input shaping (IS) for the same execution time. Besides, our method can also execute the task faster than IS with a minor reduction in vibration suppression performance. The proposed method facilitates the development of new solutions to a wide range of tasks that involve dynamic manipulation of flexible objects.</p>
     
 
     
@@ -856,8 +843,8 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
-            <a href="/publication/#2">
-              Journal article
+            <a href="/publication/#3">
+              Preprint
             </a>
           </div>
         </div>
@@ -873,7 +860,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">IEEE Robotics and Automation Letters</div>
+          <div class="col-12 col-md-9">Submitted to ICRA 2023</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -904,7 +891,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/&amp;text=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/&amp;text=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -917,7 +904,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/&amp;t=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/&amp;t=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -930,7 +917,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming&amp;body=https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator&amp;body=https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -943,7 +930,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/&amp;title=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/&amp;title=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -956,7 +943,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming%20https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator%20https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -969,7 +956,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://alejandroastudillo.github.io/publication/symbolic-linearization-scqp/&amp;title=Position%20and%20Orientation%20Tunnel-Following%20NMPC%20of%20Robot%20Manipulators%20Based%20on%20Symbolic%20Linearization%20in%20Sequential%20Convex%20Quadratic%20Programming" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/&amp;title=An%20Optimal%20Open-Loop%20Strategy%20for%20Handling%20a%20Flexible%20Beam%20with%20a%20Robot%20Manipulator" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -988,6 +975,12 @@
 
 
   
+  
+    
+
+
+
+
   
     
 
@@ -1095,12 +1088,6 @@
 
     </div>
   </div>
-
-
-  
-    
-
-
 
 
   
