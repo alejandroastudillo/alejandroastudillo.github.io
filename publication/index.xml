@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/publication/</link>
       <atom:link href="https://alejandroastudillo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 09 Nov 2022 14:25:13 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Dec 2022 15:41:42 +0100</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://alejandroastudillo.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Anderson Accelerated Feasible Sequential Linear Programming</title>
+      <link>https://alejandroastudillo.github.io/publication/anderson-accelerated-fslp/</link>
+      <pubDate>Fri, 16 Dec 2022 15:41:42 +0100</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/anderson-accelerated-fslp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Web-Based Graphical User Interface for Programming Optimal Control Based Robot Motion Tasks</title>
