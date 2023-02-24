@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/publication-type/1/</link>
       <atom:link href="https://alejandroastudillo.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Dec 2022 19:28:31 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 02 Feb 2023 11:24:39 +0100</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://alejandroastudillo.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>An Optimal Open-Loop Strategy for Handling a Flexible Beam with a Robot Manipulator</title>
+      <link>https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/</link>
+      <pubDate>Thu, 02 Feb 2023 11:24:39 +0100</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/flexible-beam-manipulator/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Tasho: A Python Toolbox for Rapid Prototyping and Deployment of Optimal Control Problem-Based Complex Robot Motion Skills </title>
