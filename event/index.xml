@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/event/</link>
       <atom:link href="https://alejandroastudillo.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Oct 2022 14:00:00 -0400</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 May 2023 09:30:00 +0100</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://alejandroastudillo.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Towards real-time MPC of robotic systems with full dynamic models: results, challenges, and opportunities</title>
+      <link>https://alejandroastudillo.github.io/talk/towards-real-time-mpc-of-robotic-systems-with-full-dynamic-models-results-challenges-and-opportunities/</link>
+      <pubDate>Fri, 12 May 2023 09:30:00 +0100</pubDate>
+      <guid>https://alejandroastudillo.github.io/talk/towards-real-time-mpc-of-robotic-systems-with-full-dynamic-models-results-challenges-and-opportunities/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Raising stars invited talk - MECC 2022</title>
