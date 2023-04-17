@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/</link>
       <atom:link href="https://alejandroastudillo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Alejandro Astudillo</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 May 2023 09:30:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 May 2023 17:00:00 +0200</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Alejandro Astudillo</title>
       <link>https://alejandroastudillo.github.io/</link>
     </image>
+    
+    <item>
+      <title>Fast model predictive control for robotic manipulators: efficient computations and operations</title>
+      <link>https://alejandroastudillo.github.io/talk/fast-model-predictive-control-for-robotic-manipulators-efficient-computations-and-operations/</link>
+      <pubDate>Mon, 15 May 2023 17:00:00 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/talk/fast-model-predictive-control-for-robotic-manipulators-efficient-computations-and-operations/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Towards real-time MPC of robotic systems with full dynamic models: results, challenges, and opportunities</title>
