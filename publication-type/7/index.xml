@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>7 | Alejandro Astudillo</title>
+    <link>https://alejandroastudillo.github.io/publication-type/7/</link>
+      <atom:link href="https://alejandroastudillo.github.io/publication-type/7/index.xml" rel="self" type="application/rss+xml" />
+    <description>7</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 May 2023 17:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
+      <title>7</title>
+      <link>https://alejandroastudillo.github.io/publication-type/7/</link>
+    </image>
+    
+    <item>
+      <title>Advancing the Industrial Application of Model Predictive Control for Robot Manipulators: Improving Computational Efficiency and Facilitating Implementation</title>
+      <link>https://alejandroastudillo.github.io/publication/phd-thesis/</link>
+      <pubDate>Mon, 15 May 2023 17:00:00 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/phd-thesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
