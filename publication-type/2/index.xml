@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/publication-type/2/</link>
       <atom:link href="https://alejandroastudillo.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Jan 2022 09:11:17 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 Jun 2023 13:52:54 +0200</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://alejandroastudillo.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Smartphone-Based Wearable Gait Monitoring System Using Wireless Inertial Sensors</title>
+      <link>https://alejandroastudillo.github.io/publication/gait-monitoring/</link>
+      <pubDate>Tue, 27 Jun 2023 13:52:54 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/gait-monitoring/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Position and Orientation Tunnel-Following NMPC of Robot Manipulators Based on Symbolic Linearization in Sequential Convex Quadratic Programming</title>
