@@ -5,12 +5,20 @@
     <link>https://alejandroastudillo.github.io/event/</link>
       <atom:link href="https://alejandroastudillo.github.io/event/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Jun 2023 17:15:00 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jul 2024 10:00:00 -0400</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>Recent &amp; Upcoming Talks</title>
       <link>https://alejandroastudillo.github.io/event/</link>
     </image>
+    
+    <item>
+      <title>Workshop on optimal control problems and model predictive control for autonomous systems</title>
+      <link>https://alejandroastudillo.github.io/talk/workshop-on-optimal-control-problems-and-model-predictive-control-for-autonomous-systems/</link>
+      <pubDate>Tue, 16 Jul 2024 10:00:00 -0400</pubDate>
+      <guid>https://alejandroastudillo.github.io/talk/workshop-on-optimal-control-problems-and-model-predictive-control-for-autonomous-systems/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Avances en la aplicación industrial del control predictivo basado en modelos para sistemas robóticos: Mejora de la eficiencia computacional y facilitación de la implementación</title>
