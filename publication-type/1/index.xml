@@ -5,12 +5,68 @@
     <link>https://alejandroastudillo.github.io/publication-type/1/</link>
       <atom:link href="https://alejandroastudillo.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Mar 2023 19:04:03 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Jul 2024 10:35:00 +0200</lastBuildDate>
     <image>
       <url>https://alejandroastudillo.github.io/media/icon_hud665afb12f4cc26e22130f72ce760bd4_7192_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://alejandroastudillo.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Towards the Analytical Computation of Time-Optimal Trajectories of Unicycle Robots Within Corridor Environments</title>
+      <link>https://alejandroastudillo.github.io/publication/ecc24-analytical-motion-planner/</link>
+      <pubDate>Wed, 24 Jul 2024 10:35:00 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/ecc24-analytical-motion-planner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time-Optimal Model Predictive Control Using Feasibility Governors</title>
+      <link>https://alejandroastudillo.github.io/publication/ecc24-time-optimal-governor/</link>
+      <pubDate>Wed, 24 Jul 2024 10:34:54 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/ecc24-time-optimal-governor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Almost Feasible Sequential Linear Programming Algorithm</title>
+      <link>https://alejandroastudillo.github.io/publication/ecc24-feasible-slp/</link>
+      <pubDate>Wed, 24 Jul 2024 10:33:32 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/ecc24-feasible-slp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimization-based Application Point Determination of External Wrench for Gravity Compensation of Space Manipulator</title>
+      <link>https://alejandroastudillo.github.io/publication/isparo24-grav-comp/</link>
+      <pubDate>Mon, 24 Jun 2024 10:26:48 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/isparo24-grav-comp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Axis Kinematics Algorithm for Satellite Manipulator System in Orbital Motion</title>
+      <link>https://alejandroastudillo.github.io/publication/isparo24-axis-kinematics/</link>
+      <pubDate>Mon, 24 Jun 2024 10:24:47 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/isparo24-axis-kinematics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rapid Deployment of Model Predictive Control for Robotic Systems: From IMPACT to ROS 2 Through Code Generation</title>
+      <link>https://alejandroastudillo.github.io/publication/amc24-impact-ros2/</link>
+      <pubDate>Fri, 26 Apr 2024 10:31:30 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/amc24-impact-ros2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analytical Planner and Replanner of Minimum-Time Trajectories for Unicycle Robots Moving in Corridors</title>
+      <link>https://alejandroastudillo.github.io/publication/amc24-arena-planner/</link>
+      <pubDate>Fri, 26 Apr 2024 10:28:10 +0200</pubDate>
+      <guid>https://alejandroastudillo.github.io/publication/amc24-arena-planner/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>IMPACT: A Toolchain for Nonlinear Model Predictive Control Specification, Prototyping, and Deployment</title>
